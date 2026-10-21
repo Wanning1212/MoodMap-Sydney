@@ -30,16 +30,12 @@ External libraries: None
 
 The project uses built-in Processing functions for drawing, mouse interactions and displaying images. No GPS, external APIs or live data are needed.
 
-Run It Yourself
+Run It Yourself！
 
 Click Code → Download ZIP.
+Unzip the downloaded file.
+Open the `MoodMap_Sydney` folder inside the downloaded project.
+Open `MoodMap_Sydney.pyde` in Processing 4 with Python Mode selected.
+Click ▶ Run and start exploring!
 
-Unzip the project and rename the extracted folder to MoodMap_Sydney.
-
-Open Processing 4 and switch to Python Mode.
-
-Open MoodMap_Sydney.pyde.
-
-Press ▶ Run and start exploring!
-
-Keep the data folder alongside the .pyde file so the location photos load correctly.
+Make sure the `data` folder stays inside `MoodMap_Sydney` so all location photos load correctly.
