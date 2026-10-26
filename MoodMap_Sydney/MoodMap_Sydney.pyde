@@ -1,6 +1,4 @@
 # MoodMap Sydney
-# Creative Coding Project
-# An interactive map to explore Sydney based on your mood
 
 screen = 0
 selectedMood = ""
@@ -46,8 +44,7 @@ def setup():
     chineseGardenImg = loadImage("chinesegarden2.jpg")
     botanicImg = loadImage("botanicgarden2.jpeg")
     wendysImg = loadImage("wendysgarden2.jpeg")
-
-    # Check if the images are loading properly
+ # Check if the images are loading properly
     print("Bondi:", bondiImg)
     print("Luna:", lunaImg)
     print("Rocks:", rocksImg)
@@ -71,7 +68,6 @@ def draw():
     elif screen == 3:
         drawDetail()
 
-
 def drawWelcome():
     textAlign(CENTER)
 
@@ -79,20 +75,17 @@ def drawWelcome():
     fill(80, 55, 120)
     textSize(55)
     text("MoodMap Sydney", width/2, 220)
-
     fill(100)
     textSize(20)
     text("Navigate Sydney by how you feel", width/2, 265)
 
-    # Start button
+    # Start 
     noStroke()
     fill(255, 220, 90)
     rect(width/2, 360, 200, 65, 15)
-
     fill(60)
     textSize(22)
     text("START", width/2, 368)
-
 
 def drawMood():
     textAlign(CENTER)
@@ -105,9 +98,9 @@ def drawMood():
     textSize(17)
     text("Choose the mood that feels closest to you.", width/2, 140)
 
-    # I chose different colours to represent each mood
+    #I chose different colours to represent each mood
 
-    # Stressed - fense
+    #Stressed - fense
     if selectedMood == "Stressed":
         stroke(80, 55, 120)
         strokeWeight(5)
@@ -122,7 +115,7 @@ def drawMood():
     textSize(20)
     text("Stressed", 250, 267)
 
-    # Calm -lanse
+    #Calm -lanse
     if selectedMood == "Calm":
         stroke(80, 55, 120)
         strokeWeight(5)
@@ -178,9 +171,7 @@ def drawMood():
         textSize(18)
         text("NEXT", width/2, 546)
 
-
 def drawSydneyMap():
-
     # different moods have different colours
     if selectedMood == "Stressed":
         waterColour = color(220, 195, 205)
@@ -228,7 +219,7 @@ def drawSydneyMap():
 
 
     # Sydney harbour
-    # I used vertex to make the water shape
+    # used vertex to make the water shape
     fill(waterColour)
     beginShape()
     vertex(100, 250)
@@ -378,7 +369,6 @@ def drawMap():
     # draw my Sydney map
     drawSydneyMap()
 
-
     # only show places for the mood selected
     for place in places:
         name = place[0]
@@ -477,7 +467,7 @@ def drawDetail():
 
 def getDescription(name):
 
-    # some short descriptions for each place
+    #some short descriptions for each place
 
     if name == "Royal Botanic Garden":
         return "A nice place to walk around and relax when you feel stressed."
@@ -515,7 +505,6 @@ def mousePressed():
     if screen == 0:
         if 350 < mouseX < 550 and 327 < mouseY < 393:
             screen = 1
-
 
     # xuanze qingxu
     elif screen == 1:
