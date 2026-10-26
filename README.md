@@ -1,5 +1,5 @@
 
-#  MoodMap Sydney
+ # MoodMap Sydney
 ### How does Sydney feel today?
 
 Feeling stressed and need somewhere quiet? Or feeling curious and ready to explore?
@@ -29,7 +29,17 @@ Instead of using Google Maps, I decided to draw my own version of Sydney using P
 
 ##  Screenshots
 
-*Screenshots of the mood selection, interactive map and location details will be added here.*
+### Welcome Screen
+![Welcome Screen](MoodMap_Sydney/screenshots/welcome.png)
+
+### Mood Selection
+![Mood Selection](MoodMap_Sydney/screenshots/moods.png)
+
+### Interactive Map
+![Interactive Map](MoodMap_Sydney/screenshots/map-hover.png)
+
+### Location Details
+![Location Details](MoodMap_Sydney/screenshots/location.png)
 
 ##  How to Run
 
@@ -55,7 +65,7 @@ A few things I'd love to improve:
 - Allow one location to match different moods.
 - Collect more feedback on whether the recommendations match how users feel.
 
-## 📚 References & Credits
+##  References & Credits
 
 ### Coding Resources
 
@@ -73,7 +83,7 @@ A few things I'd love to improve:
 - Norman (2013). *The design of everyday things*.
 
 
-### 📸 Image Credits
+###  Image Credits
 
 The location photographs used in MoodMap Sydney are credited to the following sources:
 
@@ -95,6 +105,6 @@ The location photographs used in MoodMap Sydney are credited to the following so
 
 - Barangaroo Reserve – WikiAustralia
 
-## 💌 Acknowledgements
+##  Acknowledgements
 
 I used [Processing.py tutorials](https://py.processing.org/tutorials/) and [Processing Reference](https://py.processing.org/reference/) to help bring my ideas to life.
